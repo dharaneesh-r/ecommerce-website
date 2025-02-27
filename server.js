@@ -25,8 +25,10 @@ mongoose
 
 //APP ROUTES
 const registerRouter = require("./View/RegisterView");
+const ProductRouter = require("./View/ProductView");
 
 app.use("/", registerRouter);
+app.use("/", ProductRouter);
 
 //PORT DETAILS
 
